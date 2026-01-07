@@ -14,6 +14,6 @@
 8. Change 'Transform' in the highlighted code to '_playerTransform'. This makes Translate() be called on a proper object reference.
 
 ### Activity 3
-[Google Doc](https://docs.google.com/document/d/1A1lkqSfYbcQn9UN1hMjbRY7x2fuXZEa0aiapVb3bzUQ/edit?tab=t.0)
+&emsp;[Google Doc](https://docs.google.com/document/d/1A1lkqSfYbcQn9UN1hMjbRY7x2fuXZEa0aiapVb3bzUQ/edit?tab=t.0)
 
 ## W2
