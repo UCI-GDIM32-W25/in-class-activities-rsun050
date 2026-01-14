@@ -20,3 +20,15 @@
 ### Activity 1
 <img width="2388" height="1668" alt="image" src="https://github.com/user-attachments/assets/5a73c662-733d-4695-8a39-8b021816683d" />
 
+### Activity 2
+Things I did ([Commit link](https://github.com/UCI-GDIM32-W25/mg2-oop-review-rsun050/commit/1331c89c4ac9d86e73e45947636c0ae84dd522d3)):
+- built the scene
+  - floor: SpriteRenderer + Collider2D
+  - coin: SpriteRenderer + Collider2D (trigger)
+  - player: SpriteRenderer + RigidBody2D + Collider2D
+  - canvas (UI), barrier for destroying missed coins: Collider2D
+- coded scripts
+  - player jumping (made sure to only let player jump when touching ground) + coin collecting
+  - coin movement and despawning
+  - updating UI when getting coin
+  - spawning coins at random intervals
