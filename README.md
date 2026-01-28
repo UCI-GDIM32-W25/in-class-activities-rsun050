@@ -39,3 +39,14 @@ Partner: Armando Topete
 
 ### Activity 3
 <img width="2388" height="1668" alt="image" src="https://github.com/user-attachments/assets/7359f947-02bf-4559-8859-c46116781396" />
+
+## W4
+### Activity 0
+Partner: Armando Topete
+
+### Activity 1
+
+
+### Activity 2
+
+### Activity 3
