@@ -45,8 +45,10 @@ Partner: Armando Topete
 Partner: Armando Topete
 
 ### Activity 1
-
+- When multiple `Locator` objects are in the Scene, the code we wrote in `Locator.Awake()` deletes the extra `Locator` script components, leaving just one in the Scene. (The `GameObjects` the scripts are attached to stay, but the script components vanish). This behaviour is desired and intended, since our `Locator` instance is `static`, meaning we only want one instance in the scene at any time.
 
 ### Activity 2
+<img width="2896" height="1468" alt="image" src="https://github.com/user-attachments/assets/5b178322-c123-4d19-8308-cb0b69182125" />
 
 ### Activity 3
+I imported the assets and set up the sprite settings + sliced the sprites. [(Commit)](https://github.com/rsun050/HW4/commit/6a0688bf7a21e328f0726826800f8d9597026539)
