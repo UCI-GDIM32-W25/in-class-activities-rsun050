@@ -64,10 +64,42 @@ Controller - game logic: `Player` and `Enemy` classes: movement, detect collisio
 
 ### Activity 3
 #### Rhythm Game Scenario
+ScriptableObject can be used to define beat data for each song.
 
+Event could be used to update the score UI, or the UI could be a singleton so that any Object can easily update the score.
 
 #### Team Shooter Scenario
 
+Singleton can be used for the Player so that other classes can easily do things like decrease the Player's health.
+
+Different types of weapons (eg: ranged vs melee) can inherit from a single Weapon class.
+
+Model/View/Controller:
+Model: ScriptableObject can be used to define weapon statistics. <br>
+View: Canvas and Animator can be used to show HUD, player/weapon animations <br>
+Controller: Player class and controls <br>
 
 #### Farming Game Scenario
+Singleton: usable for the Player, to define their Inventory
 
+FSM & Enums: can be used to define which sprite to show for a crop at each growth phase
+- example enum: Seed, Seedling, Shoot, Budding, Mature
+
+ScriptableObject can be used to define data (MVC - Model):
+- how long it takes a plant to grow
+- durability
+- yield/drop table
+- how much an item sells for
+
+Rock and Plant class (MVC - Controller):
+- extend Monobehaviour and have the fields:
+  - data from ScriptableObject
+  - SpriteRenderer
+  - Animator (for Plants)
+- extend IBreakable and define the functions:
+  - OnBreak()
+
+### Activity 4
+In attendance: Ruth Sun, Armando Topete, Michael A. Lopez
+
+[Final Project Proposal First Draft]()
