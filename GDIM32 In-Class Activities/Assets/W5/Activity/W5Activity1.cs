@@ -1,8 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/*
-
 public class W5Activity1 : MonoBehaviour
 {
 	// You don't need to change Start.
@@ -41,17 +39,20 @@ public class W5Activity1 : MonoBehaviour
 // attacking with axe
 // axe now has 4 durability remaining
 
-public interface IBreakable {
+public interface IBreakable { // recall: interface: no member vars, children MUST implement all funcs
 	void Damage(float damage);
 	void Break();
 }
 
 public abstract class Item {
+	protected float _durability;
 	public abstract void Use();
 }
 
-public class Axe : Item, IBreakable {
-	private float _durability = 5.0f;
+public class Axe : Item, IBreakable { // problem: not implementing break
+	public Axe() { // constructor to init durability
+		_durability = 5.0f;	
+	}
 	
 	public void Damage (float damage) {
 		_durability -= damage;
@@ -61,6 +62,10 @@ public class Axe : Item, IBreakable {
 			Break();
 		}
 	}
+
+	public void Break() { // implement break
+		Debug.Log("axe is broken!");
+	}
 	
 	public override void Use () {
 		Debug.Log("attacking with axe");
@@ -69,13 +74,16 @@ public class Axe : Item, IBreakable {
 }
 
 public class ElvenSword : Item {
-	public void Use () {
+	public override void Use () { // need to override Item's Use()
 		Debug.Log("attacking with Elven sword");
 	}
 }
 
 public class Torch : Item, IBreakable {
-	
+	public Torch() {
+		_durability = 1;
+	}
+
 	public void Damage (float damage) {
 		_durability -= damage;
 		Debug.Log("torch now has " + _durability + " durability remaining");
@@ -85,14 +93,12 @@ public class Torch : Item, IBreakable {
 		}
 	}
 	
-	public void BreakItem () {
+	public void Break () {
 		Debug.Log("torch is broken!");
 	}
 	
-	protected override void Use () {
+	public override void Use () {
 		Debug.Log("lighting area with torch");
 		Damage(1.0f);
 	}
 }
-
-*/
