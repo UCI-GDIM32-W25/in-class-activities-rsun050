@@ -52,3 +52,7 @@ Partner: Armando Topete
 
 ### Activity 3
 I imported the assets and set up the sprite settings + sliced the sprites. [(Commit)](https://github.com/rsun050/HW4/commit/6a0688bf7a21e328f0726826800f8d9597026539)
+
+## W5
+### Activity 1
+I'm not sure breakability needs to be a separate interface. It certainly works, but I'm thinking maybe `Break()` could have a default method in `Item` and simply not require every child class to override it. Child classes could decide if they ever want to call `Break()` or not. I also don't like the durability and durability loss being hard-coded here, that might be better as a ScriptableObject instead.
