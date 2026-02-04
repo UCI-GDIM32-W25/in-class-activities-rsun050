@@ -102,4 +102,4 @@ Rock and Plant class (MVC - Controller):
 ### Activity 4
 In attendance: Ruth Sun, Armando Topete, Michael A. Lopez
 
-[Final Project Proposal First Draft]()
+[Final Project Proposal First Draft](https://docs.google.com/document/d/1Ax2Mq7j3RwbZEpmFtbBaP7coQjp67ePpT8dRNFPnmxk/edit?tab=t.0#heading=h.wcm5jag04eng)
