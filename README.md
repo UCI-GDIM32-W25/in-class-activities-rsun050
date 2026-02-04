@@ -56,3 +56,18 @@ I imported the assets and set up the sprite settings + sliced the sprites. [(Com
 ## W5
 ### Activity 1
 I'm not sure breakability needs to be a separate interface. It certainly works, but I'm thinking maybe `Break()` could have a default method in `Item` and simply not require every child class to override it. Child classes could decide if they ever want to call `Break()` or not. I also don't like the durability and durability loss being hard-coded here, that might be better as a ScriptableObject instead.
+
+### Activity 2
+Model - game data: the ScriptableObject classes for `Item` and `EnemyStats`: item names, enemy dialogue<br>
+View - view: visuals and results: `InventoryUI` and `DialogueBubble`: text and sprites appearing on screen<br>
+Controller - game logic: `Player` and `Enemy` classes: movement, detect collision<br>
+
+### Activity 3
+#### Rhythm Game Scenario
+
+
+#### Team Shooter Scenario
+
+
+#### Farming Game Scenario
+
