@@ -103,3 +103,11 @@ Rock and Plant class (MVC - Controller):
 In attendance: Ruth Sun, Armando Topete, Michael A. Lopez
 
 [Final Project Proposal First Draft](https://docs.google.com/document/d/1Ax2Mq7j3RwbZEpmFtbBaP7coQjp67ePpT8dRNFPnmxk/edit?tab=t.0#heading=h.wcm5jag04eng)
+
+## W6
+### Activity 1
+I didn't know about the Profiler, so if we run into performance issues it'll definitely be helpful. The Gizmos will also be helpful for seeing where the player is looking around and where clicks are 'landing' on in 3D.
+
+### Activity 2
+In attendance: Ruth Sun, Armando Topete, Michael A. Lopez
+[Final Project Proposal Final Draft](https://docs.google.com/document/d/1Ax2Mq7j3RwbZEpmFtbBaP7coQjp67ePpT8dRNFPnmxk/edit?usp=sharing)
