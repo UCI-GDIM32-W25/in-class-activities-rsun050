@@ -109,5 +109,18 @@ In attendance: Ruth Sun, Armando Topete, Michael A. Lopez
 I didn't know about the Profiler, so if we run into performance issues it'll definitely be helpful. The Gizmos will also be helpful for seeing where the player is looking around and where clicks are 'landing' on in 3D.
 
 ### Activity 2
-In attendance: Ruth Sun, Armando Topete, Michael A. Lopez
+In attendance: Ruth Sun, Armando Topete, Michael A. Lopez<br>
 [Final Project Proposal Final Draft](https://docs.google.com/document/d/1Ax2Mq7j3RwbZEpmFtbBaP7coQjp67ePpT8dRNFPnmxk/edit?usp=sharing)
+<hr>
+
+## W7
+### Activity 1
+W7_Demo Notes:<br>
+Raycast - draw a ray from a point in a direction, see what it hits first (like shining a laser). Function returns true/false, but raycast hit information is actually returned in the `out` parameter
+
+Spherecast - cast a sphere along a ray, see what it hits first. can be used in place of ray for things like "will a thing of size be able to fit through here?".
+
+### Activity 2
+In attendance: Ruth Sun, Armando Topete, Michael A. Lopez
+
+### Activity 3
