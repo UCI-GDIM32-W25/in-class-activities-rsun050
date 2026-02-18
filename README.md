@@ -127,10 +127,14 @@ In attendance: Ruth Sun, Armando Topete, Michael A. Lopez
 <img width="960" height="720" alt="handy dandy breakdown" src="https://github.com/user-attachments/assets/fdbf2204-7dca-41a1-9dbf-530d4eb262ab" />
 
 ### Activity 4
+[Trello Board](https://trello.com/b/Dfl5L4Mu/handy-dandy)
+
 Assigned tasks:<br>
 Ruth: Player class, GameController class, Hands/Inventory classes, the ability/feature to look at and pick stuff up <br>
 Armando: UI <br>
 Michael: World terrain, Apple Tree Model, Blacksmith Model<br>
 
 ### Activity 5
+[Commit](https://github.com/rsun050/handy-dandy/commit/68595a2ae4af336fb57ff223155c73fb2a48733e)<br>
+Started work on player movement
 
