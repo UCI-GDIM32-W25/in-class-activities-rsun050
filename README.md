@@ -124,3 +124,13 @@ Spherecast - cast a sphere along a ray, see what it hits first. can be used in p
 In attendance: Ruth Sun, Armando Topete, Michael A. Lopez
 
 ### Activity 3
+<img width="960" height="720" alt="handy dandy breakdown" src="https://github.com/user-attachments/assets/fdbf2204-7dca-41a1-9dbf-530d4eb262ab" />
+
+### Activity 4
+Assigned tasks:<br>
+Ruth: Player class, GameController class, Hands/Inventory classes, the ability/feature to look at and pick stuff up <br>
+Armando: UI <br>
+Michael: World terrain, Apple Tree Model, Blacksmith Model<br>
+
+### Activity 5
+
