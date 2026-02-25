@@ -138,3 +138,27 @@ Michael: World terrain, Apple Tree Model, Blacksmith Model<br>
 [Commit](https://github.com/rsun050/handy-dandy/commit/68595a2ae4af336fb57ff223155c73fb2a48733e)<br>
 Started work on player movement
 
+## W8
+### Activity 1
+Notes:<br>
+Postprocessing - making the game look pretty, stuff like bloom, filters, transformative stuff like warps, ripples, etc<br>
+If you want to use postprocessing add the Postprocessing System from Unity package manager. Make sure any shaders you're using still 'work' on web
+
+### Activity 2
+In attendance: Ruth Sun, Armando Topete, Michael A. Lopez
+
+### Activity 3
+Playtesting: buddy team: nameless :D<br>
+Captain: Michael
+
+Comments:
+Make the mouse sensitivity start out lower, and give the player to open a Settings menu where they can adjust their mouse sensitivity accordingly. Add more to do in the game, like a lake and cave in the back of the village. Add some more environmental props like bushes or wild-life. Fix the bug where looking at an object for the first time makes your mouse freak out.
+
+### Activity 4
+Overall we're about 1/4 of the way there. We have a walking simulator right now but once we replace item placeholders, code NPCs, and detail the world the game should look pretty close to finished. Should be able to finish as planned.
+
+Task I'm going to work on today: picking items up
+
+### Activity 5
+[Commit](https://github.com/rsun050/handy-dandy/commit/7fa0196d521eaddfe13e8f410c98faeb3488b63d)<br>
+Started work on inventory manager and picking up items feature
