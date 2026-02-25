@@ -149,9 +149,9 @@ In attendance: Ruth Sun, Armando Topete, Michael A. Lopez
 
 ### Activity 3
 Playtesting: buddy team: nameless :D<br>
-Captain: Michael
+Our playtesting captain: Michael
 
-Comments:
+Comments we received:
 Make the mouse sensitivity start out lower, and give the player to open a Settings menu where they can adjust their mouse sensitivity accordingly. Add more to do in the game, like a lake and cave in the back of the village. Add some more environmental props like bushes or wild-life. Fix the bug where looking at an object for the first time makes your mouse freak out.
 
 ### Activity 4
