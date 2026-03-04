@@ -193,3 +193,5 @@ Add a crosshair to make interacting with the apples easier. Have an indicator th
 I think we're behind on our tasks, mostly due to poor prioritization on what should get done first (or done at all), failure to plan code structure adequately (big picture architecture was fine, function and class design details was lacking) before starting implementation, incorrect perception of what was to be made, resulting in work and time spent making something that wasn't in or didn't match the proposal. The scope itself should be doable if not for this.
 
 ### Activity 5
+[Commit](https://github.com/rsun050/handy-dandy/commit/46518e03bd7573e3ce73b60d258279c8ba18c201)<br>
+Refined inventory system, added dropping items and switching which hand is the active hand (for picking up/dropping items)
