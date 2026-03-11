@@ -195,3 +195,23 @@ I think we're behind on our tasks, mostly due to poor prioritization on what sho
 ### Activity 5
 [Commit](https://github.com/rsun050/handy-dandy/commit/46518e03bd7573e3ce73b60d258279c8ba18c201)<br>
 Refined inventory system, added dropping items and switching which hand is the active hand (for picking up/dropping items)
+
+## W10
+### Activity 1
+In attendance: Ruth Sun, Armando Topete, Michael A. Lopez
+
+### Activity 2
+Playtesting: buddy team: nameless :D<br>
+Our playtesting captain: Michael
+
+### Activity 3
+Playtesting: buddy team: nameless :D<br>
+Our playtesting captain: Michael
+
+Comments we received:<br>
+Make mouse sensitivity begin at the correct starting value, because it shows the player has a mouse sensitivity of 1, when that's not the case. Update the materials for the assets, since the materials are just basic colors right now. Add the remaining assets, including the monster, food item, apples, and sword.
+
+### Activity 4
+[Commit](https://github.com/rsun050/handy-dandy/commit/71b3d42301d44abd23e1cb1b59ef3ad67da18c53)<br>
+Reworking our dialogue/quest system to make it more scalable
+
